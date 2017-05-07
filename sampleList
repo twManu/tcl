@@ -1,0 +1,47 @@
+#!/usr/bin/tclsh
+package require cmdline
+
+proc usage {} {
+	global argv0
+	puts "Usage: $argv0 \[-a APPROACH] \[-f FILE]"
+	puts "     APPROACH: either 1(default) or 2"
+	puts "     FILE:    full path file name for vlc to play with"
+}
+
+
+set approach 1
+set fname /media/sf_share/clock-sync.mp4   ;#default file name
+set aList $argv
+
+while {[set result [cmdline::getopt aList {a.arg f.arg} opt val]] > 0} {
+        switch -exact -- $opt {
+                a {set approach $val}
+                f {set fname $val}
+        }
+}
+
+
+if { $result } {	;#0 normal
+	usage
+	exit
+}
+
+
+if { ![file exists "$fname"] } {
+	puts "\"$fname\" is not found !!!"
+	exit
+}
+
+
+#either way works
+if { $approach == 2 } {
+	set cmd "exec vlc "
+	eval [concat $cmd $fname &]
+	puts "approach 2 ends"
+} else {
+	set cmd exec
+	lappend cmd vlc $fname &
+	eval $cmd
+	puts "approach 1 ends"
+}
+

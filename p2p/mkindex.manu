@@ -1,0 +1,35 @@
+#when there is new file to provide package
+#DONT do when server.tcl and client.tcl presents
+#1. add it into pkg_mkIndex
+#2. then run "tclsh mkindex.manu" to build package information
+
+#
+# create index
+proc buildIndex {} {
+	puts -nonewline "Creating tclIndex ..."
+	flush stdout
+	auto_mkindex . *.tcl
+	#auto_mkindex . cBinField.tcl cIniParser.tcl mlib.tcl cTimeStr.tcl cArray.tcl cGit.tcl cCmdPipe.tcl 
+	puts " done !"
+}
+
+
+#####
+# main
+# ask user if tclIndex exists
+#
+if [file exists tclIndex] {
+	puts -nonewline {tclIndex exists, process anyway? (y/n) }
+	flush stdout
+	gets stdin ans
+} else { set ans yes }
+
+
+switch -regexp -nocase -- $ans {
+	^y.* {
+		buildIndex
+		#the source must have a version to be processed by pkg_mkIndex
+		pkg_mkIndex . cIniParser.tcl mlib.tcl cTimeStr.tcl cArray.tcl cGit.tcl cCmdPipe.tcl
+	}
+}
+

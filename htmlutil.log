@@ -1,0 +1,291 @@
+#####
+# 2-1 log for tclsh mcast.tcl during development
+#
+set html() {}
+set html(<text>) {}
+set html(RESPONSE) {}
+set html(<text>) {}
+set html(USERACCOUNT) {}
+set html(<text>) manu
+set html(/USERACCOUNT) {}
+set html(<text>) {}
+set html(USERAGE) {}
+set html(<text>) 30
+set html(/USERAGE) {}
+set html(<text>) {}
+set html(USERGENDERID) {}
+set html(<text>) 0
+set html(/USERGENDERID) {}
+set html(<text>) {}
+set html(USERTZID) {}
+set html(<text>) 1080
+set html(/USERTZID) {}
+set html(<text>) {}
+set html(USERCOID) {}
+set html(<text>) 0
+set html(/USERCOID) {}
+set html(<text>) {}
+set html(USERREID) {}
+set html(<text>) 0
+set html(/USERREID) {}
+set html(<text>) {}
+set html(AUTHRESULT) {}
+set html(<text>) {}
+set html(VAL) {}
+set html(<text>) 100
+set html(/VAL) {}
+set html(<text>) {}
+set html(MSG) {}
+set html(<text>) {MEMBER EXIST, CORRECT SESSIONKEY}
+set html(/MSG) {}
+set html(<text>) {}
+set html(/AUTHRESULT) {}
+set html(<text>) {}
+set html(BILLINGRESULT) {}
+set html(<text>) {}
+set html(VAL) {}
+set html(<text>) 100
+set html(/VAL) {}
+set html(<text>) {}
+set html(MSG) {}
+set html(<text>) {ENABLE WATCHING}
+set html(/MSG) {}
+set html(<text>) {}
+set html(/BILLINGRESULT) {}
+set html(<text>) {}
+set html(FUNCENABLE) {}
+set html(<text>) {}
+set html(VAL) {}
+set html(<text>) 100
+set html(/VAL) {}
+set html(<text>) {}
+set html(MSG) {}
+set html(<text>) {ENABLE ALL FUNCTIONS}
+set html(/MSG) {}
+set html(<text>) {}
+set html(/FUNCENABLE) {}
+set html(<text>) {}
+set html(PERIOD) {}
+set html(<text>) 300
+set html(/PERIOD) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) A70BD428D3AB366E207C69F9FEC855F6
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 1
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) 342075067E7A54155A607E5934489A2A
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 4
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(HOST) {}
+set html(<text>) 140.113.215.231
+set html(/HOST) {}
+set html(<text>) {}
+set html(PORT) {}
+set html(<text>) 7244
+set html(/PORT) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) 3012ECC8919A84631EEBB2B0897F8DC1
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 5
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) 45864AE01FBD8FE4745961D8E524A427
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 6
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) AB78CDE7269326556845DBD8B14AF047
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 7
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) DC9A02442355A034412C84E140674AD1
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 8
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) 0B7868EA379DFC48DCE2AECFF26370F3
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 9
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) 9B11CB4FBFE2BE74E45DEA256224C781
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 10
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) 8BAECA74017A86F7F6E6D1E659CEF7D9
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 11
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) CCD34B22F033BEB31140FD696576FBA9
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 12
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) 171B2074221D75631C219BB412E1872A
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 13
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) DB120DA7A66BFA7B44C0AEBCE20EDB12
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 14
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(RELAY) {}
+set html(<text>) {}
+set html(CAUID) {}
+manutest 
+set html(<text>) 526567623E067212AD62ADB2FB360645
+set html(/CAUID) {}
+set html(<text>) {}
+set html(CHANNELNUM) {}
+set html(<text>) 15
+set html(/CHANNELNUM) {}
+set html(<text>) {}
+set html(/RELAY) {}
+set html(<text>) {}
+set html(ISP) {}
+set html(<text>) CHT
+set html(/ISP) {}
+set html(<text>) {}
+set html(COUNTRY) {}
+set html(<text>) TW
+set html(/COUNTRY) {}
+set html(<text>) {}
+set html(/RESPONSE) {}
+set html(<text>) {}
+
+#####
+# 2-2 log for tclsh htmlutil.tcl
+#
+Parsing: a<b c>d<e f>g<e h>i</e>j</e>k<e l>m</b>n</o>p
+set html() {}
+a=a<b c>, b=a, c=b c
+set html(<text>) a
+set html(B) c
+a=d<e f>, b=d, c=e f
+set html(<text>) d
+set html(E) f
+a=g<e h>, b=g, c=e h
+set html(<text>) g
+set html(E) h
+a=i</e>, b=i, c=/e
+set html(<text>) i
+set html(/E) h
+a=j</e>, b=j, c=/e
+set html(<text>) j
+set html(/E) f
+a=k<e l>, b=k, c=e l
+set html(<text>) k
+set html(E) l
+a=m</b>, b=m, c=/b
+set html(<text>) m
+set html(/E) l
+set html(/B) c
+a=n</o>, b=n, c=/o
+set html(<text>) n
+a=p</>, b=p, c=/
+set html(<text>) p
+

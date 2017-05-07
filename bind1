@@ -1,0 +1,17 @@
+#!/bin/sh
+# the next line restarts using wish \
+exec wish "$0" "$@"
+
+package require Tk
+
+frame .one -width 30 -height 30
+frame .two -width 30 -height 30
+bind all <Control-c> {destroy %W}
+bind all <Enter> {focus %W}
+bind Frame <Enter> {%W config -bg red}
+bind Frame <Leave> {%W config -bg white}
+bind .two <Any-Button> {puts "Button %b at %x %y"}
+#focus default .
+pack .one .two -side left
+
+

@@ -1,0 +1,45 @@
+#!/bin/sh
+# the next line restarts usin wish \
+exec wish "$0" "$@"
+
+package require Tk
+
+wm title . "Key Test"
+
+proc setFocus {} {
+	focus -force .
+	timerOn 1
+}
+
+set g_pid 0 ;#kill pid 0 (no effect I guss) if never set
+
+proc timerOn {on} {
+	global g_pid
+	if {$on && [winfo exists .one]} {
+		set g_pid [after 200 setFocus]
+	} else {
+		after cancel $g_pid
+	}
+}
+
+
+proc killAll {} {
+	timerOn 0
+	destroy .
+}
+
+
+frame .one -width 300 -height 300
+bind all <Control-c> {killAll}
+bind all <KeyPress> {
+	#puts {%%K=%K, %%A=%A}
+	#if {%A != {} } {%W insert insert %A}
+	if [string length %A] {
+		puts "%A"
+		if [string equal %A V] {puts "call VLC"}
+	}
+}
+#bind all <KeyPress-Down> {puts "down pressed"}
+#bind all <KeyPress-Up> {puts "up pressed"}
+pack .one -side left
+timerOn 1
